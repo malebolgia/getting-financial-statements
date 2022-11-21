@@ -1,0 +1,21 @@
+{
+  "name": "node-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "api": "node api.js",
+    "scrape": "node index.js",
+    "googlefinance": "node googleapi.js",
+    "googlesheet": "node googlesheet.js"
+  },
+  "dependencies": {
+    "cheerio": "*",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "google-finance": "^0.1.12",
+    "google-finance-data": "^0.0.6",
+    "googleapis": "^109.0.1",
+    "nodemon": "^2.0.12",
+    "scramjet": "^4.36.9",
+    "unirest": "^0.6.0"
+  }
+}
